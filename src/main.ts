@@ -14,7 +14,7 @@ app.use(compression());
 app.use(express.urlencoded({ extended: false }));
 
 app.get("/", (_, res: Response) => {
-  res.send("BONDI is LiVE");
+  res.send("App is LiVE");
 });
 
 const start = () => {
