@@ -24,3 +24,18 @@ export class UserRegisterDto {
     this.phonenumber = d.phonenumber;
   }
 }
+
+export class UserLoginDto {
+  @IsNotEmpty()
+  @IsString()
+  readonly email: string;
+
+  @IsNotEmpty()
+  @IsString()
+  readonly password: string;
+
+  constructor(d: UserLoginDto) {
+    this.email = d.email;
+    this.password = d.password;
+  }
+}
