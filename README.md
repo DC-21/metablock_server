@@ -42,3 +42,11 @@ POST /api/auth/login: Login with existing credentials. Requires a JSON payload w
 Blockchain Asset Originality Verification:
 
 GET /api/verify/:assetId: Verify the originality of a blockchain asset. Replace :assetId with the ID of the asset you want to verify. This endpoint requires authentication, so include the JWT token obtained during login in the request headers.
+
+Contributing
+
+Contributions to this project are welcome! If you have any suggestions, bug fixes, or feature requests, please feel free to open an issue or submit a pull request on GitHub.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
