@@ -14,7 +14,7 @@ app.use(cors());
 app.use(compression());
 app.use(express.urlencoded({ extended: false }));
 
-app.use("/user", userRouter);
+app.use("/auth", userRouter);
 
 app.get("/", (_, res: Response) => {
   res.send("App is LiVE");
